@@ -3,6 +3,6 @@ export interface IProject extends Document {
   title: string;
   des: string;
   img: string;
-  iconLists: string[];
+  iconLists?: string[];
   link: string;
 }

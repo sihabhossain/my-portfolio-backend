@@ -5,7 +5,6 @@ import { ISkill } from './skills.interface';
 const skillSchema = new Schema<ISkill>({
   name: { type: String, required: true },
   level: { type: String, required: true },
-  img: { type: String, required: true },
   description: { type: String, required: false },
 });
 
