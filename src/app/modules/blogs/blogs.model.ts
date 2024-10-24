@@ -5,9 +5,6 @@ import { IBlog } from './blogs.interface';
 const blogSchema = new Schema<IBlog>({
   title: { type: String, required: true },
   content: { type: String, required: true },
-  author: { type: String, required: true },
-  date: { type: Date, default: Date.now },
-  thumbnail: { type: String, required: true },
 });
 
 // Create the Blog Model

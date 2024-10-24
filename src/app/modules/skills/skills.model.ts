@@ -4,8 +4,7 @@ import { ISkill } from './skills.interface';
 // Define the Skill Schema
 const skillSchema = new Schema<ISkill>({
   name: { type: String, required: true },
-  level: { type: String, required: true },
-  description: { type: String, required: false },
+  description: { type: String, required: true },
 });
 
 // Create the Skill Model
